@@ -1,7 +1,11 @@
 name: "Deployment"
 on:
   schedule:
-    - cron: '30 11 1 * *'
+    - cron: '1 11 1 * *'
+  push:
+    - branches: main
+  pull_request:
+    - branched: main
 
 jobs:
   build:
