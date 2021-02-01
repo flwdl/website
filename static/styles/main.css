@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 41em;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+/* 顶栏 */
+.site-title {
+    float: left;
+}
+
+.site-title img {
+    width: 3.5em;
+    margin: .75em .375em;
+    vertical-align: middle;
+}
+
+.site-title span {
+    color: black;
+    font-size: 1.25em;
+}
+
+nav {
+    float: right;
+    line-height: 4.5em;
+}
+
+nav input, nav label {
+    display: none;
+}
+
+nav .page-link {
+    margin-left: 1em;
+    color: black;
+}
+
+nav .page-link:hover {
+    text-decoration: underline;
+}
+
+/* 文章列表 */
+a {
+    color: cornflowerblue;
+}
+
+.post-date + a {
+    margin-left: .875em;
+}
+
+.post-list {
+    list-style: none;
+}
+
+.post-date {
+    font-family: Menlo,Consolas,Courier,"Han Heiti", monospace, sans-serif;
+    color: grey;
+}
+
+/* 文章 */
+article img {
+    max-width: 100%;
+    box-shadow: 0 .25em .5em 0 rgba(0, 0, 0, 0.2), 0 .375em 1.25em 0 rgba(0, 0, 0, 0.19);
+}
+
+article .post-title {
+    margin: 0 0 3rem 0;
+}
+
+.page-title {
+    margin-top: 0;
+}
+
+article .post-date {
+    position: relative;
+    top: -3rem;
+}
