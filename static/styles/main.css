@@ -1,22 +1,27 @@
 body {
     display: flex;
     flex-direction: column;
-    max-width: 41em;
+    max-width: 38em;
     margin: 0 auto;
     padding: 0 1em;
 }
 
+
 /* # 导航菜单 */
+
 nav {
     float: right;
     line-height: 4.5em;
 }
 
-nav input, nav label {
+nav input,
+nav label {
     display: none;
 }
 
+
 /* # 各种标题 */
+
 .site-title {
     float: left;
 }
@@ -26,18 +31,21 @@ nav input, nav label {
     font-size: 1.25em;
 }
 
-.page-title, .post-title {
+.page-title,
+.post-title {
     margin: 0;
 }
 
 
 /* # 超链接 */
+
 a {
     color: cornflowerblue;
 }
 
-.post-date + a {
-    margin-left: .875em;    /* 因为 Han.css 数字和汉字之间自动加入空白，这里空白的宽度是一个汉字的宽度的 1/8 */
+.post-date+a {
+    margin-left: .875em;
+    /* 因为 Han.css 数字和汉字之间自动加入空白，这里空白的宽度是一个汉字的宽度的 1/8 */
 }
 
 nav .page-link {
@@ -49,19 +57,25 @@ nav .page-link:hover {
     text-decoration: underline;
 }
 
+
 /* 列表 */
+
 .post-list {
     list-style: none;
     line-height: 1.7;
 }
 
+
 /* 日期 */
+
 .post-date {
-    font-family: Menlo,Consolas,Courier,"Han Heiti", monospace, sans-serif;
+    font-family: Menlo, Consolas, Courier, "Han Heiti", monospace, sans-serif;
     color: grey;
 }
 
+
 /* 图片 */
+
 article img {
     max-width: 100%;
     box-shadow: 0 .25em .5em 0 rgba(0, 0, 0, 0.2), 0 .375em 1.25em 0 rgba(0, 0, 0, 0.19);
@@ -71,4 +85,42 @@ article img {
     height: 3.5em;
     margin: .75em .375em;
     vertical-align: middle;
+}
+
+
+/* 小屏幕的特别设置 */
+
+@media screen and (max-width: 40em) {
+    nav {
+        position: absolute;
+        top: 1.5em;
+        right: 1em;
+        text-align: right;
+        background-color: white;
+        border: .1em;
+    }
+    nav label[for="nav-trigger"] {
+        display: block;
+        float: right;
+        width: 1.375em;
+        height: 1.375em;
+        z-index: 2;
+        cursor: pointer;
+    }
+    nav .menu-icon {
+        display: block;
+        float: right;
+        line-height: 0;
+        margin-top: .1875em;
+    }
+    nav input~.trigger {
+        display: none;
+    }
+    nav input:checked~.trigger {
+        display: block;
+        line-height: 2.125;
+    }
+    nav .page-link {
+        display: block;
+    }
 }
