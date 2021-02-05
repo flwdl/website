@@ -1,6 +1,6 @@
 ---
 title: "1 首题"
-date: 2021-02-05T12:00:00+08:00
+date: 2021-02-15T19:00:00+08:00
 draft: false
 math: true
 ---
@@ -30,19 +30,21 @@ $$
 
 希望再找到一个像 $SU \cdot SA$ 的量，由此可以确定一些圆内接四边形，对目标有所帮助。
 
-还是利用 $\angle SUC = \angle SCA$。结合 $\angle SCA = \angle SPA$，不难想到在远处 $SP$ 与 $BC$ 有一交点 $T$，显然有 $\triangle SUT \sim \triangle SUA$，得到 $A$、$U$、$P$、$T$ 四点共圆。由圆幂定理，$SP \cdot ST = SU \cdot SA$。那 $SI^2$ 也 $= SP \cdot ST$，这样，$\triangle SPI \sim \triangle SIT$。注意，
+还是利用 $\angle SUC = \angle SCA$。结合 $\angle SCA = \angle SPA$，不难想到在远处 $SP$ 与 $BC$ 有一交点 $T$，显然有 $\triangle SUT \sim \triangle SUA$，得到 $A$、$U$、$P$、$T$ 四点共圆。
+
+由圆幂定理，$SP \cdot ST = SU \cdot SA$。那 $SI^2$ 也 $= SP \cdot ST$，这样，$\triangle SPI \sim \triangle SIT$。注意，
 
 <div>
 $$
 \begin{aligned}
-\angle SIP &= \angle SAP + \angle API \\
-           &= \angle STI \\
-           &= \angle STU + \angle ITU,
+(\angle SAP + \angle API &=) \angle SIP \\
+                         &= \angle STI \\
+                        (&= \angle STU + \angle ITU),
 \end{aligned}
 $$
 </div>
 
-而 $\angle SAP = \angle STU$，而 $\angle SAP = \angle STU$，那 $\angle API = \angle ITU$。设 $AP$ 交 $IT$ 于点 $X$，则 $X$、$U$、$P$、$T$ 四点共圆。由 $TY \perp IP$，$PX \perp IT$，$E$ 为 $\triangle PIT$ 的垂心。
+而 $\angle SAP = \angle STU$，那 $\angle API = \angle ITU$。设 $AP$ 交 $IT$ 于点 $X$，则 $X$、$U$、$P$、$T$ 四点共圆。由 $TY \perp IP$，$PX \perp IT$，$E$ 为 $\triangle PIT$ 的垂心。
 
 $E$ 为垂心，$IT \perp PT$，$TE \perp IP$，知 $\angle PIE = \angle PTE$，进而 $\angle PIE = \angle PTE = \angle PAI$。我们希望
 
@@ -51,7 +53,7 @@ $$
 \begin{aligned}
 (\frac{\pi}{2} - \angle PIE &= )\angle IEB \\
                             &= \angle IAF \\
-                           (&= \angle IAE + \angle EAF)
+                           (&= \angle PAI + \angle EAF)
 \end{aligned}
 $$
 </div>
