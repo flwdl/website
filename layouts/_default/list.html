@@ -4,13 +4,7 @@
     <h1 class="page-title">{{ .Title }}</h1>
     {{ range .Pages.GroupByDate "2006" }}
     <h2 class="year">{{ .Key }}</h2>
-    <ul class="post-list">
-        {{ range .Pages }}
-        <li>
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-        </li>
-        {{ end }}
-    </ul>
+    {{ partial "getPostList.html" . }}
     {{ end }}
 </main>
 
