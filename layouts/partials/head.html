@@ -5,7 +5,9 @@
     <link rel="shortcut icon" href="{{ .Site.Params.LogoURL }}">
 
     <!-- 汉字标准格式 -->
+    {{ if .Site.Params.han }}
     <link rel="stylesheet" href="/styles/han.min.css">
+    {{ end }}
 
     <link rel="stylesheet" href="/styles/main.css">
 </head>
