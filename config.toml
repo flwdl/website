@@ -1,13 +1,16 @@
 baseURL = "https://flwdl.github.io/"
+copyright = "除特别说明外，本站所有内容均采用知识共享署名-相同方式共享 4.0 国际许可协议进行许可"
 languageCode = "zh-Hans"
+newContentEditor = "code"
 title = "FLWDL"
 
-[params]
-  titleLanguage = "en"
-  han = true
-  displayLogo = true
-  logoURL = "/images/site-logo.png"
-  mathJaX = true
+[author]
+  name = "FLWDL"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [menu]
   [[menu.main]]
@@ -15,7 +18,9 @@ title = "FLWDL"
     name = "订阅"
     weight = 1
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+[params]
+  titleLanguage = "en"
+  han = true
+  displayLogo = true
+  logoURL = "/images/site-logo.png"
+  mathJaX = true
