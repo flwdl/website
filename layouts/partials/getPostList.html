@@ -2,6 +2,7 @@
     {{ range .Pages }}
     <li>
         <time class="post-date">{{ .Date.Format "01-02" }}</time>
+        <span id="ideographic-space">&#12288;</span>
         <a href="{{ .Permalink }}">{{ .Title }}</a>
     </li>
     {{ end }}
