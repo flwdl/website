@@ -3,7 +3,7 @@ languageCode = "zh-Hans"
 title = "FLWDL"
 
 [params]
-  headerLanguage = "en"
+  titleLanguage = "en"
   han = true
   displayLogo = true
   logoURL = "/images/site-logo.png"

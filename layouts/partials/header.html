@@ -1,11 +1,11 @@
-<header lang="{{ .Site.Params.HeaderLanguage }}" class="site-header">
+<header class="site-header">
   <div class="wrapper">
     <div class="site-header-logo">
       <a class="site-title" href="{{ .Site.BaseURL }}">
         {{ if .Site.Params.DisplayLogo }}
         <img src="{{ .Site.Params.LogoURL }}">
         {{ end }}
-        <span>{{ .Site.Title }}</span>
+        <span lang="{{ .Site.Params.TitleLanguage }}">{{ .Site.Title }}</span>
       </a>
     </div>
 
