@@ -6,6 +6,7 @@ title = "FLWDL"
 
 [author]
   name = "FLWDL"
+  email = "flwdl@foxmail.com"
 
 [markup]
   [markup.goldmark]
@@ -20,6 +21,7 @@ title = "FLWDL"
 
 [params]
   titleLanguage = "en"
+  description = "FLWDL 的网站"
   han = true
   displayLogo = true
   logoURL = "/images/site-logo.png"
