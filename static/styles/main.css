@@ -47,11 +47,6 @@ a {
     color: cornflowerblue;
 }
 
-.post-date+a {
-    margin-left: .875em;
-    /* 因为 Han.css 数字和汉字之间自动加入空白，这里空白的宽度是一个汉字的宽度的 1/8 */
-}
-
 nav .page-link {
     margin-left: 1em;
     color: black;
