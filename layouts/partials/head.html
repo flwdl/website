@@ -15,5 +15,8 @@
     <link rel="stylesheet" media="all" href="//cdnjs.cloudflare.com/ajax/libs/Han/3.2.7/han.min.css">
     {{ end }}
 
-    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}styles/main.css">
+    {{ if .Site.Params.mobileMenu }}
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}styles/mobile-menu.css">
+    {{ end }}
 </head>

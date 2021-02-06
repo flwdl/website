@@ -26,3 +26,4 @@ title = "FLWDL"
   displayLogo = true
   logoURL = "/images/site-logo.png"
   mathJaX = true
+  mobileMenu = false    # 小屏幕上将菜单栏折叠
