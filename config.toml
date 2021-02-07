@@ -17,6 +17,10 @@ title = "FLWDL"
   [[menu.main]]
     url = "/subscribe"
     name = "订阅"
+    weight = 10
+  [[menu.main]]
+    url = "/guestbook"
+    name = "留言板"
     weight = 1
 
 [params]

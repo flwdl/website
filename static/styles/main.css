@@ -45,8 +45,13 @@ nav label {
 .page-title,
 .post-title {
     margin: 0;
+    font-size: 1.75em;
 }
 
+article h2 {
+    font-size: 1.5em;
+    margin: .67em 0;
+}
 
 /* # 超链接 */
 
@@ -108,4 +113,8 @@ article p:lang(zh-Hans) {
 
 article p.r {
     text-align: right;
+}
+
+article h2 + p {
+    margin-top: -1em;   
 }
