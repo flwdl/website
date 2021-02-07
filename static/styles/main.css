@@ -10,6 +10,9 @@ body {
     padding: 0 1em 2em 1em;
 }
 
+article {
+    line-height: 1.7;
+}
 
 /* # 导航菜单 */
 
@@ -45,13 +48,13 @@ nav label {
 
 a {
     color: cornflowerblue;
+    text-decoration: none;
 }
 
 nav .page-link,
 nav .page-link:hover {
     margin-left: 1em;
     color: black;
-    text-decoration: none;
 }
 
 /* 列表 */
@@ -65,7 +68,7 @@ nav .page-link:hover {
 /* 日期 */
 
 .post-date {
-    font-family: Menlo, Consolas, Courier, "Han Heiti", monospace, sans-serif;
+    font-family: Menlo, Consolas, Courier, monospace, sans-serif;
     color: grey;
 }
 
@@ -81,4 +84,14 @@ article img {
     height: 3.5em;
     margin: .75em .375em;
     vertical-align: middle;
+}
+
+/* 代码 */
+
+code {
+    font-family: Menlo, Consolas, Courier, monospace, sans-serif;
+}
+
+pre {
+    overflow-x: auto;
 }

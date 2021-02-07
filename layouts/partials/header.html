@@ -3,7 +3,7 @@
     <div class="site-header-logo">
       <a class="site-title" href="{{ .Site.BaseURL }}">
         {{ if .Site.Params.DisplayLogo }}
-        <img src="{{ .Site.Params.LogoURL }}">
+        <img alt="site logo" src="{{ .Site.Params.LogoURL }}">
         {{ end }}
         <span lang="{{ .Site.Params.TitleLanguage }}">{{ .Site.Title }}</span>
       </a>
