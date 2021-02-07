@@ -53,12 +53,12 @@ $$
 \begin{aligned}
 (\frac{\pi}{2} - \angle PIE &= )\angle IEB \\
                             &= \angle IAF \\
-                           (&= \angle PAI + \angle EAF)
+                           (&= \angle PAI + \angle EAF),
 \end{aligned}
 $$
 </div>
 
-即证 $\angle SOP + \angle EAF = \dfrac{\pi}{2}$。
+<p class="no-indent">即证 $\angle SOP + \angle EAF = \dfrac{\pi}{2}$。</p>
 
 由于 $OP \parallel PQ$，$\angle SOP = \angle OPQ$。由外心性质（$\angle OPQ + \angle QBP = \dfrac{\pi}{2}$），那么 $\angle SOP + \angle EAF = \dfrac{\pi}{2}$ 等价于 $\angle EAF = \angle QBP$。加之我们有
 
