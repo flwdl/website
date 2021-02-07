@@ -22,7 +22,6 @@ title = "FLWDL"
 [params]
   titleLanguage = "en"
   description = "FLWDL 的网站"
-  han = true
   displayLogo = true
   logoURL = "/images/site-logo.png"
   mathJaX = true
