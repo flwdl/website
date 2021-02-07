@@ -4,5 +4,6 @@
 
 ## LICENSES
 
-- KaTeX ([LICENSE](static/third-party/katex/LICENSE))
- 
+- KaTeX ([MIT LICENSE](static/third-party/katex/LICENSE))
+
+- Utterances ([MIT LICENSE](https://github.com/utterance/utterances/blob/master/LICENSE.md))
