@@ -7,11 +7,15 @@ body {
     flex-direction: column;
     max-width: 38em;
     margin: 0 auto;
-    padding: 0 1em 2em 1em;
+    padding: 0 1em;
 }
 
 article {
     line-height: 1.7;
+}
+
+.license {
+    margin: 2em auto;
 }
 
 /* # 导航菜单 */
@@ -94,4 +98,10 @@ code {
 
 pre {
     overflow-x: auto;
+}
+
+/* 段落 */
+
+article p:lang(zh-Hans) {
+    text-align: justify;
 }

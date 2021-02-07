@@ -26,13 +26,13 @@ $$
 $$
 </div>
 
-由此得到 $\triangle SUC \sim \triangle SCA$，得 $SI^2 = SC^2 = SU \cdot SA$（第一个等号可由熟知的「鸡爪定理」得到）。
+<p class="no-indent">由此得到 $\triangle SUC \backsim \triangle SCA$，得 $SI^2 = SC^2 = SU \cdot SA$（第一个等号可由熟知的「鸡爪定理」得到）。</p>
 
 希望再找到一个像 $SU \cdot SA$ 的量，由此可以确定一些圆内接四边形，对目标有所帮助。
 
-还是利用 $\angle SUC = \angle SCA$。结合 $\angle SCA = \angle SPA$，不难想到在远处 $SP$ 与 $BC$ 有一交点 $T$，显然有 $\triangle SUT \sim \triangle SUA$，得到 $A$、$U$、$P$、$T$ 四点共圆。
+还是利用 $\angle SUC = \angle SCA$。结合 $\angle SCA = \angle SPA$，不难想到在远处 $SP$ 与 $BC$ 有一交点 $T$，显然有 $\triangle SUT \backsim \triangle SUA$，得到 $A$、$U$、$P$、$T$ 四点共圆。
 
-由圆幂定理，$SP \cdot ST = SU \cdot SA$。那 $SI^2$ 也 $= SP \cdot ST$，这样，$\triangle SPI \sim \triangle SIT$。注意，
+由圆幂定理，$SP \cdot ST = SU \cdot SA$。那 $SI^2$ 也 $= SP \cdot ST$，这样，$\triangle SPI \backsim \triangle SIT$。注意，
 
 <div>
 $$
@@ -44,7 +44,7 @@ $$
 $$
 </div>
 
-而 $\angle SAP = \angle STU$，那 $\angle API = \angle ITU$。设 $AP$ 交 $IT$ 于点 $X$，则 $X$、$U$、$P$、$T$ 四点共圆。由 $TY \perp IP$，$PX \perp IT$，$E$ 为 $\triangle PIT$ 的垂心。
+<p class="no-indent">而 $\angle SAP = \angle STU$，那 $\angle API = \angle ITU$。设 $AP$ 交 $IT$ 于点 $X$，则 $X$、$U$、$P$、$T$ 四点共圆。由 $TY \perp IP$，$PX \perp IT$，$E$ 为 $\triangle PIT$ 的垂心。</p>
 
 $E$ 为垂心，$IT \perp PT$，$TE \perp IP$，知 $\angle PIE = \angle PTE$，进而 $\angle PIE = \angle PTE = \angle PAI$。我们希望
 
@@ -60,7 +60,7 @@ $$
 
 即证 $\angle SOP + \angle EAF = \dfrac{\pi}{2}$。
 
-由于 $OP \parallel PQ$，$\angle SOP = \angle OPQ$。由外心性质（$\angle OPQ + \angle QBP = \dfrac{\pi}{2}$），那么 $\angle SOP + \angle EAF = \dfrac{\pi}{2}$ 等价于 $\angle EAF = \angle QBP$。加之我们有，
+由于 $OP \parallel PQ$，$\angle SOP = \angle OPQ$。由外心性质（$\angle OPQ + \angle QBP = \dfrac{\pi}{2}$），那么 $\angle SOP + \angle EAF = \dfrac{\pi}{2}$ 等价于 $\angle EAF = \angle QBP$。加之我们有
 
 <div>
 $$
@@ -72,17 +72,17 @@ $$
 $$
 </div>
 
-于是
+<p class="no-indent">于是</p>
 
 <div>
 $$
 \begin{aligned}
-                &\angle EAF = \angle QBP \\
-\Leftrightarrow	&(\angle QBA + \angle ABC = ) \angle QBC = \angle CAF \\
-\Leftrightarrow	&\frac{\pi}{2} - \angle BQP = \pi - \angle QAC \\
-\Leftrightarrow	&\angle QAC - \angle BQP = \frac{\pi}{2} \\
-\Leftrightarrow	&\angle QAC - \angle BAP = \frac{\pi}{2} \\
-\Leftrightarrow	&\angle QAB + \angle PAC = \frac{\pi}{2}
+      &\angle EAF = \angle QBP \\
+\Harr &(\angle QBA + \angle ABC = ) \angle QBC = \angle CAF \\
+\Harr &\frac{\pi}{2} - \angle BQP = \pi - \angle QAC \\
+\Harr &\angle QAC - \angle BQP = \frac{\pi}{2} \\
+\Harr &\angle QAC - \angle BAP = \frac{\pi}{2} \\
+\Harr &\angle QAB + \angle PAC = \frac{\pi}{2}.
 \end{aligned}
 $$
 </div>

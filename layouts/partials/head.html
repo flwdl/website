@@ -32,4 +32,19 @@
         });
     </script>
     {{ end }}
+
+    {{ if and .Site.Params.math .Params.math }}
+    <style>
+        article p {
+            text-indent: 2em;
+            margin: 0;
+        }
+        article img {
+            margin: 1em auto 1em -2em;
+        }
+        p.no-indent {
+            text-indent: 0;
+        }
+    </style>
+    {{ end }}
 </head>
