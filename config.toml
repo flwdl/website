@@ -20,13 +20,17 @@ title = "FLWDL"
     weight = 10
   [[menu.main]]
     url = "/guestbook"
-    name = "留言板"
+    name = "留言"
     weight = 1
+  [[menu.main]]
+    url="/about"
+    name = "关于"
+    weight = 5
 
 [params]
   titleLanguage = "en"
   description = "FLWDL 的网站"
   displayLogo = true
   logoURL = "/images/site-logo.png"
-  mobileMenu = false    # 小屏幕上将菜单栏折叠
+  mobileMenu = true    # 小屏幕上将菜单栏折叠
   commentRepo = "flwdl/website-comments"
