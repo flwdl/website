@@ -1,35 +1,3 @@
-<!-- KaTeX -->
-{{ if and .Params.math }}
-<link rel="stylesheet" href="{{ .Site.BaseURL }}third-party/katex/katex.min.css">
-<script defer src="{{ .Site.BaseURL }}third-party/katex/katex.min.js"></script>
-<script defer src="{{ .Site.BaseURL }}third-party/katex/contrib/auto-render.min.js"></script>
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        renderMathInElement(document.body, {
-            delimiters: [
-                { left: "$$", right: "$$", display: true },
-                { left: "$", right: "$", display: false }
-            ]
-        });
-    });
-</script>
-{{ end }}
-
-{{ if .Params.math }}
-<style>
-    article p {
-        text-indent: 2em;
-        margin: 0;
-    }
-    article img {
-        margin: 1em auto 1em -2em;
-    }
-    p.no-indent {
-        text-indent: 0;
-    }
-</style>
-{{ end }}
-
 <!-- 评论 -->
 {{ if .Params.comment }}
 <script src="https://utteranc.es/client.js"
