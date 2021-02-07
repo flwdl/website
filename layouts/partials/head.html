@@ -4,9 +4,9 @@
     <meta name="google-site-verification" content="xnoBSyTeIQprrxnAkfzoGlklXC09qqNC6yYo9Na96XI" />
     <title>
         {{ if .IsHome }}
-            {{ .Site.Title }}
+        {{ .Site.Title }}
         {{ else }}
-            {{ .Title }} | {{ .Site.Title }}
+        {{ .Title }} | {{ .Site.Title }}
         {{ end }}
     </title>
     <link rel="shortcut icon" href="{{ .Site.Params.LogoURL }}">
@@ -14,5 +14,22 @@
     <link rel="stylesheet" href="{{ .Site.BaseURL }}styles/main.css">
     {{ if .Site.Params.mobileMenu }}
     <link rel="stylesheet" href="{{ .Site.BaseURL }}styles/mobile-menu.css">
+    {{ end }}
+
+    <!-- KaTeX -->
+    {{ if and .Site.Params.math .Params.math }}
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}third-party/katex/katex.min.css">
+    <script defer src="{{ .Site.BaseURL }}third-party/katex/katex.min.js"></script>
+    <script defer src="{{ .Site.BaseURL }}third-party/katex/contrib/auto-render.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            renderMathInElement(document.body, {
+                delimiters: [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false }
+                ]
+            });
+        });
+    </script>
     {{ end }}
 </head>
