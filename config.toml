@@ -25,3 +25,4 @@ title = "FLWDL"
   displayLogo = true
   logoURL = "/images/site-logo.png"
   mobileMenu = false    # 小屏幕上将菜单栏折叠
+  commentRepo = "flwdl/website-comments"
