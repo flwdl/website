@@ -90,9 +90,7 @@ $$
 $$
 </div>
 
-$\angle QAB + \angle PAC = \dfrac{\pi}{2}$ 是显然的。
-
-<p class="r">$\text{Q.E.D.}$</p>
+$\angle QAB + \angle PAC = \dfrac{\pi}{2}$ 是显然的。$\blacksquare$
 
 [1-1]: /images/1-first-problem-img1.png
 [1-2]: /images/1-first-problem-img2.png
