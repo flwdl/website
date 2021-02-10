@@ -18,7 +18,7 @@ jobs:
 
     steps:
     - name: 'Building...'
-      uses: flwdl/hugo-deploy@master
+      uses: reuixiy/hugo-deploy@v1
       env:
         DEPLOY_REPO: flwdl/flwdl.github.io
         DEPLOY_BRANCH: main
