@@ -29,7 +29,7 @@ $$
 $$
 </div>
 
-<p class="no-indent">由此得到 $\triangle SUC \backsim \triangle SCA$，得 $SI^2 = SC^2 = SU \cdot SA$（第一个等号可由熟知的「鸡爪定理」得到）。</p>
+<p class="no-indent">由此得到 $\triangle SUC \backsim \triangle SCA$，得 $SI^2 = SC^2 = SU \cdot SA$（第一个等号可由熟知的「[鸡爪定理](https://baike.baidu.com/item/%E9%B8%A1%E7%88%AA%E5%AE%9A%E7%90%86)」得到）。</p>
 
 希望再找到一个像 $SU \cdot SA$ 的量，由此可以确定一些圆内接四边形，对目标有所帮助。
 
