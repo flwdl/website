@@ -123,6 +123,7 @@ article h2 + p {
 /* 来自 https://github.com/sofish/typo.css/pull/41/files */
 em {
   position: relative;
+  font-style: normal;
 }
 em:after {
   position: absolute;
