@@ -118,3 +118,17 @@ article p.r {
 article h2 + p {
     margin-top: -1em;   
 }
+
+/* 着重号，只能在少量（少于100个字符）且全是全角字符的情况下使用 */
+/* 来自 https://github.com/sofish/typo.css/pull/41/files */
+em {
+  position: relative;
+}
+em:after {
+  position: absolute;
+  top: 0.65em;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  content: "・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・";
+}
