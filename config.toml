@@ -3,6 +3,7 @@ copyright = "除特别说明外，本站所有内容均采用知识共享署名-
 languageCode = "zh-Hans"
 newContentEditor = "code"
 title = "FLWDL"
+theme = "flwdl"
 
 [author]
   name = "FLWDL"
