@@ -14,9 +14,6 @@ article {
     line-height: 1.7;
 }
 
-.license {
-    margin: 2em auto;
-}
 
 /* # 导航菜单 */
 
@@ -53,6 +50,7 @@ article h2 {
     margin: .67em 0;
 }
 
+
 /* # 超链接 */
 
 a {
@@ -65,6 +63,7 @@ nav .page-link:hover {
     margin-left: 1em;
     color: black;
 }
+
 
 /* 列表 */
 
@@ -95,6 +94,7 @@ article img {
     vertical-align: middle;
 }
 
+
 /* 代码 */
 
 code {
@@ -104,6 +104,7 @@ code {
 pre {
     overflow-x: auto;
 }
+
 
 /* 段落 */
 
@@ -115,21 +116,26 @@ article p.r {
     text-align: right;
 }
 
-article h2 + p {
-    margin-top: -1em;   
+article h2+p {
+    margin-top: -1em;
 }
 
+
 /* 着重号，只能在少量（少于100个字符）且全是全角字符的情况下使用 */
+
+
 /* 来自 https://github.com/sofish/typo.css/pull/41/files */
+
 em {
-  position: relative;
-  font-style: normal;
+    position: relative;
+    font-style: normal;
 }
+
 em:after {
-  position: absolute;
-  top: 0.65em;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  content: "・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・";
+    position: absolute;
+    top: 0.65em;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    content: "・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・";
 }
