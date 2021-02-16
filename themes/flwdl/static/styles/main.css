@@ -121,21 +121,28 @@ article h2+p {
 }
 
 
-/* 着重号，只能在少量（少于100个字符）且全是全角字符的情况下使用 */
+/* 着重号 */
 
 
-/* 来自 https://github.com/sofish/typo.css/pull/41/files */
+/* 来自 https://github.com/ethantw/Han */
 
-em {
-    position: relative;
-    font-style: normal;
+em:lang(ja),
+em:lang(zh) {
+    padding-bottom: auto;
+    border-bottom-width: 0;
 }
 
-em:after {
-    position: absolute;
-    top: 0.65em;
-    left: 0;
-    width: 100%;
-    overflow: hidden;
-    content: "・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・・";
+em:lang(ja),
+em:lang(zh) {
+    -moz-text-emphasis: filled circle;
+    -webkit-text-emphasis: filled circle;
+    text-emphasis: filled circle;
+    -moz-text-emphasis-position: under;
+    -webkit-text-emphasis-position: under;
+    text-emphasis-position: under;
+    font-style: inherit;
+    border-bottom: 2px dotted;
+    padding-bottom: .05em;
+    border-bottom-width: -webkit-calc(0px);
+    padding-bottom: -webkit-calc(0px);
 }
