@@ -31,7 +31,7 @@ theme = "flwdl"
 [params]
   titleLanguage = "en"
   description = "FLWDL 的网站"
-  displayLogo = false
+  displayLogo = true
   logoURL = "/images/site-logo.png"
   mobileMenu = true    # 小屏幕上将菜单栏折叠
   commentRepo = "flwdl/website-comments"
