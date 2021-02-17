@@ -128,13 +128,6 @@ article h2+p {
 
 em:lang(ja),
 em:lang(zh) {
-    padding-bottom: auto;
-    border-bottom-width: 0;
-}
-
-em:lang(ja),
-em:lang(zh) {
-    -moz-text-emphasis: filled circle;
     -webkit-text-emphasis: filled circle;
     text-emphasis: filled circle;
     -moz-text-emphasis-position: under;
@@ -145,4 +138,10 @@ em:lang(zh) {
     padding-bottom: .05em;
     border-bottom-width: -webkit-calc(0px);
     padding-bottom: -webkit-calc(0px);
+}
+
+em:lang(ja),
+em:lang(zh) {
+    padding-bottom: auto;
+    border-bottom-width: 0;
 }
