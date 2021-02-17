@@ -13,13 +13,9 @@ draft: false
 本站
 
 - 使用 [Hugo][Hugo website] 作为 Static Site Generator。
-
 - 引入 [KaTeX](https://katex.org)（[License][KaTeX license]）渲染数学公式。
-
 - 引入 [Utterances](https://utteranc.es)（[License][Utterances license]）做评论系统。
-
 - [源码](https://github.com/flwdl/website)放在了 GitHub。
-
 - 着重号的实现来自排版框架「[汉字标准格式](https://github.com/ethantw/Han)」的部分源码。
 
 除特别说明外，本站文章采用[知识共享署名-相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-sa/4.0/)进行许可。
