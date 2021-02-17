@@ -21,7 +21,5 @@ draft: false
 除特别说明外，本站文章采用[知识共享署名-相同方式共享 4.0 国际许可协议](https://creativecommons.org/licenses/by-sa/4.0/)进行许可。
 
 [Hugo website]: https://gohugo.io/
-
 [KaTeX license]: https://github.com/flwdl/website/blob/main/static/third-party/katex/LICENSE
-
 [Utterances license]: https://github.com/utterance/utterances/blob/master/LICENSE.md
