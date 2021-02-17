@@ -116,8 +116,17 @@ article p.r {
     text-align: right;
 }
 
-article h2+p {
+article h2+p,
+article h3+p {
     margin-top: -1em;
+}
+
+
+/* 列表 */
+
+ol,
+ul {
+    padding-left: 2em;
 }
 
 
