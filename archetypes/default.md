@@ -4,5 +4,6 @@ date: {{ .Date }}
 draft: false
 math: false
 comment: false
+toc: false
 ---
 
