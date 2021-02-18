@@ -4,15 +4,16 @@ date: 2021-02-17T20:36:07+08:00
 draft: false
 math: false
 comment: true
+toc: true
 ---
 
 本文章已开启评论。教程以 Windows 10 专业版 64 位操作系统（版本 20H2）为例。
 
-## 安装 Minecraft
+## 1　安装 Minecraft
 
 这里以使用 HMCL 启动器为例。
 
-### 安装 JRE 和 JFX
+### 1.1　安装 JRE 和 JFX
 
 下载群文件中的 `zulu8.52.0.23-ca-fx-jre8.0.282-win_x64.zip`，解压。点进去，打开 `bin` 文件夹，在资源管理的地址栏复制路径，加到系统环境变量 `Path` 中。
 
@@ -25,11 +26,11 @@ comment: true
 
 其他平台的 Zulu JDK 安装请到 Zulu JDK 官网
 
-### 安装 HMCL
+### 1.2　安装 HMCL
 
 群文件里找到启动器文件夹，下载其中的 `HMCL.zip` 并解压。
 
-### 配置 HMCL
+### 1.3　配置 HMCL
 
 这里以离线登陆方式为例。
 
@@ -39,24 +40,24 @@ comment: true
 
 Minecraft 安装完毕。
 
-## 加入模组
+## 2　加入模组
 
 打开 HMCL 启动器。点击左侧的游戏列表中你想修改的版本，这里以 `1.16.5` 为例。点击 `1.16.5`，点击上方标签页中的「模组管理」，将插件 jar 文件拖入即可。每个插件左侧的对号表示启用这个模组。单击一个卡片使它整个变蓝表示选中，可以进行一些选项卡里的操作（如删除）。
 
-## 加入材质包
+## 3　加入材质包
 
 在资源管理器地址栏键入 `%appdata%/.minecraft`，按 Enter。找到 `resourcepacks` 目录，将材质包（`.zip` 文件）粘贴进去。
 
-## 加入光影
+## 4　加入光影
 
 加不起，再见（实际是 Fabric 和 OptiFine 不兼容，以前还有个 optiFabric，好像问题一堆，很久不看这些了，不很清楚。我选择不装光影，对光阴无感）。
 
-## 常见模组的基本使用方法
+## 5　常见模组的基本使用方法
 
-### Tweakeroo
+### 5.1　Tweakeroo
 
-### MiniHUD
+### 5.2　MiniHUD
 
-## MCDR 插件基本使用方法
+## 6　MCDR 插件基本使用方法
 
-### QuickBackM
+### 6.1　QuickBackM
