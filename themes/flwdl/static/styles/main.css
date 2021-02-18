@@ -14,9 +14,6 @@ article {
     line-height: 1.7;
 }
 
-
-/* # 导航菜单 */
-
 nav {
     float: right;
     line-height: 4.5em;
@@ -26,9 +23,6 @@ nav input,
 nav label {
     display: none;
 }
-
-
-/* # 各种标题 */
 
 .site-title {
     float: left;
@@ -50,9 +44,6 @@ article h2 {
     margin: .67em 0;
 }
 
-
-/* # 超链接 */
-
 a {
     color: cornflowerblue;
     text-decoration: none;
@@ -64,24 +55,15 @@ nav .page-link:hover {
     color: black;
 }
 
-
-/* 列表 */
-
 .post-list {
     list-style: none;
     line-height: 1.7;
 }
 
-
-/* 日期 */
-
 .post-date {
     font-family: Menlo, Consolas, Courier, monospace, sans-serif;
     color: grey;
 }
-
-
-/* 图片 */
 
 article img {
     max-width: 100%;
@@ -94,9 +76,6 @@ article img {
     vertical-align: middle;
 }
 
-
-/* 代码 */
-
 code {
     font-family: Menlo, Consolas, Courier, monospace, sans-serif;
 }
@@ -104,9 +83,6 @@ code {
 pre {
     overflow-x: auto;
 }
-
-
-/* 段落 */
 
 article p:lang(zh-Hans) {
     text-align: justify;
@@ -117,12 +93,10 @@ article p.r {
 }
 
 article h2+p,
-article h3+p {
+article h3+p,
+article h2+h3 {
     margin-top: -1em;
 }
-
-
-/* 列表 */
 
 ol,
 ul {
@@ -131,9 +105,6 @@ ul {
 
 
 /* 着重号 */
-
-
-/* 来自 https://github.com/ethantw/Han */
 
 em:lang(ja),
 em:lang(zh) {
@@ -154,3 +125,6 @@ em:lang(zh) {
     padding-bottom: auto;
     border-bottom-width: 0;
 }
+
+
+/* 来自 https://github.com/ethantw/Han */
