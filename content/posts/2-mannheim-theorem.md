@@ -13,15 +13,13 @@ toc: false
 
 **分析**　做好图我们不难猜测四边形 $PBTI$、四边形 $ITCQ$ 都是圆内接四边形，并且两个四边形相似。而证明这一点并不容易。比较自然的想法是通过外角等于内对角来证明，但用这种想法，会发现两个结论相互依赖。因此我们考虑同一法，做出圆 $QCT$，令其交 $PQ$ 于点 $I'$，不难推出另一组共圆，进而证出 $I'$ 和 $I$ 是同一个点。
 
-**证明**　连接 $AX$，交 $PQ$ 于点 $I$，显然 $I$ 是 $PQ$ 的中点。这是因为圆 $X$ 与 $AB$、$AC$ 都相切，因而 $AX$ 平分 $\angle BAC$。又 $AP = AQ$，得出该结论。
-
-设 $\odot ACT$ 交 $PQ$ 于点 $I'$。$I'$ 其实就是点 $I$。下面证实这一点。
+**证明**　设 $\odot ACT$ 交 $PQ$ 于点 $I'$。
 
 （1）四边形 $PBTI'$、四边形 $I'TCQ$ 都是圆内接四边形。
 
 四边形 $I'TCQ$ 是圆内接四边形已经做出。由此及四边形 $ABCT$ 是圆内接四边形知，$\angle TI'Q = \pi - \angle QCT = \angle PBT$，得出四边形 $PBTI'$ 是圆内接四边形。
 
-（2）四边形 $PBTI'$ 与四边形 $I'TCQ$ 相似。
+（2）四边形 $PBTI'$ 与四边形 $I'TCQ$ 相似。并由此易得 $I'$ 为线段 $PQ$ 的中点。
 
 对 $\odot X$ 的切线 $AB$、弦 $PT$ 应用弦切角定理，$\angle BPT= \angle PQT$。又由（1），得 $\triangle PBT \sim \triangle QI'T$。类似地，$\triangle PI'T \sim \triangle QCT$，得出（2）。
 
