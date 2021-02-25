@@ -27,7 +27,7 @@ toc: false
 
 （3）$B$、$I'$、$S$ 三点共线。
 
-由（1），$\angle ABI' = \angle PTI'$。由（4），$\angle PTI' = \angle STC$。熟知 $\angle ATS = \angle STC$，而 $\angle ATS = \angle ABS$，得出 $\angle ABI' = \angle ABS$，即（3）。
+由（1），$\angle ABI' = \angle PTI'$。由（2），$\angle PTI' = \angle STC$。熟知 $\angle ATS = \angle STC$，而 $\angle ATS = \angle ABS$，得出 $\angle ABI' = \angle ABS$，即（3）。
 
 证毕。
 
