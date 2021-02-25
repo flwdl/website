@@ -1,5 +1,5 @@
 ---
-title: "Minecraft 服务器成员手册（更新中）"
+title: "FGLMCS 成员手册（更新中）"
 date: 2021-02-17T20:36:07+08:00
 draft: false
 math: false
@@ -24,7 +24,7 @@ toc: true
 3. 单击「编辑」；
 4. 在上一步弹出的窗口中单击「新建」，输入你刚刚复制的路径，单击「确定」。
 
-其他平台的 Zulu JDK 安装请到 Zulu JDK 官网
+其他平台的 Zulu JDK 安装请到 Zulu JDK 官网。
 
 ### 1.2　安装 HMCL
 
