@@ -1,5 +1,5 @@
 ---
-title: "2 Mannheim 定理"
+title: "2 曼海姆定理"
 date: 2021-02-23T13:39:48+08:00
 draft: false
 math: true
@@ -7,7 +7,7 @@ comment: true
 toc: false
 ---
 
-**Mannheim 定理**　圆 X 与三角形 ABC 的外切圆内切于点 T，且与 AB、AC 相切，切点分别为 P、Q。线段 PQ 的中点即为三角形 ABC 的内心。
+**曼海姆（Mannheim）定理**　圆 X 与三角形 ABC 的外切圆内切于点 T，且与 AB、AC 相切，切点分别为 P、Q。线段 PQ 的中点即为三角形 ABC 的内心。
 
 ![图 2-1][2-1]
 
