@@ -32,6 +32,6 @@ theme = "flwdl"
   titleLanguage = "en"
   description = "FLWDL 的网站"
   displayLogo = true
-  logoURL = "/images/site-logo.png"
+  logoURL = "/images/site-logo.svg"
   mobileMenu = true    # 小屏幕上将菜单栏折叠
   commentRepo = "flwdl/website-comments"
