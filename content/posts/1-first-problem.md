@@ -1,6 +1,7 @@
 ---
 title: "1 首题"
 date: 2021-02-05T19:00:00+08:00
+lastmod: 2021-04-17T13:10:00+08:00
 draft: false
 math: true
 comment: true
@@ -122,7 +123,7 @@ $$
 $$
 </div>
 
-$\angle QAB + \angle PAC = \dfrac{\pi}{2}$ 是显然的。$\blacksquare$
+$\angle QAB + \angle PAC = \dfrac{\pi}{2}$ 是显然的。$\Box$
 
 [1-1]: /images/1-first-problem-img1.png
 [1-2]: /images/1-first-problem-img2.png

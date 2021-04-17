@@ -1,6 +1,7 @@
 ---
 title: "留言板"
 date: 2021-02-07T16:28:03+08:00
+lastmod: 2021-02-07T16:28:03+08:00
 draft: false
 comment: true
 ---

@@ -1,6 +1,7 @@
 ---
 title: "FGLMCS 成员手册（更新中）"
 date: 2021-02-17T20:36:07+08:00
+lastmod: 2021-02-17T20:36:07+08:00
 draft: false
 math: false
 comment: true

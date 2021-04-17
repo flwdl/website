@@ -1,6 +1,7 @@
 ---
 title: "2 曼海姆定理"
 date: 2021-02-23T13:39:48+08:00
+lastmod: 2021-02-23T13:39:48+08:00
 draft: false
 math: true
 comment: true
