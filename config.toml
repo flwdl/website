@@ -1,9 +1,8 @@
 baseURL = "https://flwdl.github.io/"
 copyright = "除特别说明外，本站所有内容均采用知识共享署名-相同方式共享 4.0 国际许可协议进行许可"
-languageCode = "zh-Hans"
+languageCode = "zh"
 newContentEditor = "code"
 title = "FLWDL"
-theme = "flwdl"
 
 [author]
   name = "FLWDL"
@@ -29,9 +28,6 @@ theme = "flwdl"
     weight = 5
 
 [params]
-  titleLanguage = "en"
   description = "FLWDL 的网站"
-  displayLogo = true
-  logoURL = "/images/site-logo.svg"
-  mobileMenu = true    # 小屏幕上将菜单栏折叠
+  logoURL = "/images/site-logo.png"
   commentRepo = "flwdl/website-comments"

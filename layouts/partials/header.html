@@ -1,0 +1,11 @@
+<header>
+  <a href="{{ .Site.BaseURL }}">
+    <img class="site-logo" alt="site-logo" src="{{ .Site.Params.LogoURL }}">
+  </a>
+
+  <nav class="site-nav">
+    {{ range .Site.Menus.main.ByWeight }}
+      <a class="site-nav-link" href="{{ .URL }}">{{ .Name }}</a>
+    {{ end }}
+  </nav>
+</header>

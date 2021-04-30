@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/**
+ * @author flwdl
+ */
+
+body {
+    margin: 0 auto;
+    padding: 0 1em;
+    max-width: 38em;
+}
+
+/* 菜单栏
+---------------------------------------------------------------- */
+header {
+    padding: .5rem 0;
+}
+.site-logo {
+    height: 2.5em;
+}
+.site-nav {
+    float: right;
+    line-height: 3em;
+}
+.site-nav-link,
+.site-nav-link:hover {
+    margin-left: 1em;
+    color: black;
+}
+
+
+.post-list,
+#TableOfContents ul {
+    list-style: none;
+    line-height: 1.7;
+}
+
+
+
+/* 文章样式
+---------------------------------------------------------------- */
+article {
+    line-height: 1.7;
+}
+.post-date {
+    font-family: Menlo, Consolas, Courier, monospace, sans-serif;
+    color: grey;
+}
+article p:lang(zh) {
+    text-align: justify;
+}
+.page-title,
+.post-title {
+    margin: 0;
+    font-size: 1.75em;
+}
+article h2 {
+    font-size: 1.5em;
+    margin: .67em 0;
+}
+article h2+p,
+article h3+p,
+article h2+h3 {
+    margin-top: -1em;
+}
+article img {
+    max-width: 100%;
+    box-shadow: 0 .25em .5em 0 rgba(0,0,0,0.2), 0 .375em 1.25em 0 rgba(0,0,0,0.19);
+}
+article code {
+    font-family: Menlo, Consolas, Courier, monospace, sans-serif;
+}
+article pre {
+    overflow-x: auto;
+}
+
+/* 来自 https://github.com/ethantw/Han */
+em:lang(ja),
+em:lang(zh) {
+    -webkit-text-emphasis: filled circle;
+    text-emphasis: filled circle;
+    -moz-text-emphasis-position: under;
+    -webkit-text-emphasis-position: under;
+    text-emphasis-position: under;
+    font-style: inherit;
+    border-bottom: 2px dotted;
+    padding-bottom: .05em;
+    border-bottom-width: -webkit-calc(0px);
+    padding-bottom: -webkit-calc(0px);
+}
+em:lang(ja),
+em:lang(zh) {
+    padding-bottom: auto;
+    border-bottom-width: 0;
+}
+
+ol,
+ul {
+    padding-left: 2em;
+}
+a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
