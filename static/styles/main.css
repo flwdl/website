@@ -3,10 +3,19 @@
  * @author flwdl
  */
 
+
+@font-face {
+    font-family: Biaodian;
+    src: url("/fonts/SourceHanSansSCBiaodian.ttf");
+}
+
 body {
     margin: 0 auto;
     padding: 0 1em;
     max-width: 38em;
+    font-family: Biaodian, sans-serif;
+    -webkit-font-feature-settings: "halt";
+    font-feature-settings: "halt";
 }
 
 /* 菜单栏
